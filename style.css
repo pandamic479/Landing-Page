@@ -1,0 +1,33 @@
+ body {
+
+
+ }
+
+ .header {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+ }
+
+ .Headlogo {
+    align-self: center;
+    font-size: 28px;
+    margin-left: 2cm;
+
+
+ }
+
+ .Headlinks {
+    justify-content: right;
+    margin-right: 2cm;
+
+ }
+
+ ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    
+ }
