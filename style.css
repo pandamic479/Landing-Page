@@ -31,3 +31,25 @@
     gap: 20px;
     
  }
+
+
+
+ img {
+    padding: 15px;
+    height: 125px;
+    width: 125px;
+   align-self: center;
+    width: auto;
+    display: flex;
+
+ }
+
+ .g4 {
+    border: 2px solid gold;
+ }
+
+ li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
