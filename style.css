@@ -1,5 +1,5 @@
  body {
-
+margin: 0;
 
  }
 * {
@@ -20,7 +20,7 @@
     align-self: center;
     font-size: 28px;
     margin-left: 2cm;
-color: #f9faf8;
+   color: #f9faf8;
 
  }
 
@@ -41,19 +41,52 @@ color: #f9faf8;
     
  }
 
+ ul li a {
+   color: white;
+   list-style-type: none;
+   padding: 5px;
+ }
+
  .topbanner {
 
     background-color: #1f2937;
  }
 
 
+.HotGods {
+   display: flex;
+   justify-content: center;
+   
+}
+
+.HGsum { 
+   margin: 7px;
+   padding: 5px;
+   display: flex;
+   align-self: flex-start;
+   font-weight: bolder;
+   color: #1f2937;
+  font-size: 40px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  background: rgba(151, 144, 144, .5);
+  
+}
+
+
+.HotGodlinks {
+   justify-content: center;
+   margin-top: 50px;
+   
+}
+
  img {
     padding: 15px;
     height: 125px;
     width: 125px;
    align-self: center;
-    width: auto;
-    display: flex;
+
+    
 
  }
 
@@ -65,4 +98,70 @@ color: #f9faf8;
     display: flex;
     flex-direction: column;
     justify-content: center;
+ }
+
+main {
+
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+}
+
+.Tellus {
+   font-size: 48px;
+   font-weight: bolder; 
+   color: #f9faf8;
+   padding: 10px;
+}
+
+.expl {
+   font-size: 18px;
+   color: #e5e7eb;
+   padding: 5px;
+}
+
+.left {
+   margin: 25px;   
+   padding: 25px;
+
+}
+
+img.img1 {
+   width: 400px;
+   height: 250px;
+   margin: 25px;
+   margin-left: 40px;
+   padding: 30px;
+}
+
+ Button .Sub {
+        display: flex;
+        border: 10px;
+    padding: 20px 22px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    border: 2px solid red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+ }
+
+ .Sub:hover {
+   background-color: grey;
+   color: black
+ }
+
+ .HGsum {
+   display: flex;
+   justify-content: center;
+ }
+
+ img .g4 {
+
  }
